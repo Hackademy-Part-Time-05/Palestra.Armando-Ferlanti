@@ -1,0 +1,1 @@
+<i class="fa-solid fa-dumbbell fa-2xl mx-3" style="color: #ffffff;"></i>
