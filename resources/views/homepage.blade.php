@@ -1,5 +1,6 @@
+
 <x-main>
 
-contatti
+    <x-carousel/>
     
 </x-main>

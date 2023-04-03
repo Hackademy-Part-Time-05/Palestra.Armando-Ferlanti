@@ -1,4 +1,4 @@
-<nav class="navbar bg-dark data-bs-theme=dark navbar-expand-lg" data-bs-theme="dark">
+<nav class="navbar bg-dark data-bs-theme=dark navbar-expand-lg" data-bs-theme="dark" >
     <div class="container-fluid">
         <x-logo/>
       <a class="navbar-brand mx-4" href="#">HARDCORE <br/>WORKOUTS</a>
@@ -8,7 +8,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item mx-4">
-            <a class="nav-link active" aria-current="page" href="{{('home')}}">Home</a>
+            <a class="nav-link active" aria-current="page" href="{{('homepage')}}">Home</a>
           </li>
           <li class="nav-item mx-4">
             <a class="nav-link" href="{{('struttura')}}">La struttura</a>
@@ -19,7 +19,7 @@
             
           </li>
           <li class="nav-item mx-4">
-            <a class="nav-link" href="{{('dovesiamo')}}">Dove ci troviamo</a>
+            <a class="nav-link" href="{{('indirizzo')}}">Dove ci troviamo</a>
           </li>
           <li class="nav-item mx-4">
             <a class="nav-link" href="{{('contatti')}}">Contatti</a>

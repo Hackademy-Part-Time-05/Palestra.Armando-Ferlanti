@@ -15,13 +15,14 @@ class logica extends Controller
         return view('corsi');}
 
 
-      public  function dovesiamo () {
-            return view('dove-siamo');}
-
-
           public  function contatti () {
                 return view('contatti');}
 
+
+              public  function homepage () {
+                  return view('homepage');}
+
+                 public function indirizzo() {return view('indirizzo');}
 
 
 
