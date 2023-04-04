@@ -1,7 +1,7 @@
 <nav class="navbar bg-dark data-bs-theme=dark navbar-expand-lg" data-bs-theme="dark" >
     <div class="container-fluid">
         <x-logo/>
-      <a class="navbar-brand mx-4" href="#">HARDCORE <br/>WORKOUTS</a>
+      <a class="navbar-brand mx-4" href="{{('homepage')}}">HARDCORE <br/>WORKOUTS</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

@@ -20,6 +20,8 @@ Route::get('/struttura', [logica::class,'struttura'])->name('struttura');
 
 Route::get('/corsi', [logica::class,'corsi'])->name('corsi');
 
+Route::get('/corsi/dettagli/{id}', [logica::class,'dettagli'])->name('dettagli');
+
 Route::get('/contatti', [logica::class,'contatti'])->name('contatti');
 
 Route::get('/homepage', [logica::class,'homepage'])->name('homepage');
